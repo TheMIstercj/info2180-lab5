@@ -1,2 +1,6 @@
-# info2180-lab5
-INFO2180 Lab 5 - PHP and MySQL
+# \# INFO2180 Lab 5
+
+# 
+
+# This is Lab 5 for  Caudillo Jones on PHP and MySQL.
+
