@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f3f6f9;
+    color: #263248;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #40516a;
+    color: #fff;
+    text-align: center;
+    padding: 30px 16px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    max-width: 960px;
+    margin: 38px auto;
+    padding: 0 18px;
+}
+
+#controls {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+#controls label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#country {
+    display: block;
+    width: min(100%, 420px);
+    margin: 0 auto 12px;
+    padding: 12px;
+    border: 1px solid #bbc5d0;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+}
+
+button {
+    padding: 11px 15px;
+    border: 0;
+    border-radius: 4px;
+    background: #248f87;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+}
+
+#lookup-cities {
+    background: #3477b6;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+#result {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #dde3ea;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e4e9ee;
+}
+
+th {
+    background: #eaf0f5;
+}
+
+tr:nth-child(even) {
+    background: #f9fbfc;
+}
+
+.message {
+    padding: 14px;
+    background: #fff;
+    border: 1px solid #dde3ea;
+}
+
+@media (max-width: 540px) {
+    header h1 { font-size: 23px; }
+    th, td { padding: 9px; font-size: 14px; }
+}
